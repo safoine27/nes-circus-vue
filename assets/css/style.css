@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+@font-face {
+	font-family: 'arcade';
+	src: url('fonts/ARCADECLASSIC.eot');
+	src: local('☺'), url('/assets/fonts/ARCADECLASSIC.woff') format('woff'), url('/assets/fonts/ARCADECLASSIC.ttf') format('truetype'), url('/assets/fonts/ARCADECLASSIC.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    background-image: url('/assets/img/bg.jpg');
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'arcade';
+    color: #fbfbfb;
+}
+.backg{
+    width :100%;
+    height :100%;
+}
+.player-box{
+    position: fixed;
+    top: 46vh;
+    left: 10vw;
+    transform: translate(50%);
+    color: white;
+}
+.player{
+    width: 73px;
+}
+.high-score{
+    font-size: 3rem;
+    font-weight: 100;
+    position: absolute;
+    left: 48vw;
+    top: 5vh;
+}
+
+.score{
+    font-size: 3rem;
+    font-weight: 100;
+    position: absolute;
+    left: 17vw;
+    top: 5vh;
+}
+.distance{
+    font-size: 3rem;
+    font-weight: 100;
+    position: absolute;
+    right: 12vw;
+    bottom: 2.9vh;
+}
